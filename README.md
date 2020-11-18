@@ -97,7 +97,7 @@ traces
    
 #### 11 that failed to finish
   - From the query number `4` we can see that functions that were running on `ProcessId == 19452` all stopped running
-  - Seven functions stopped `12:44 - 14:46`, other four were running 4 more minutes and stopped at `12:50`
+  - Seven functions stopped `12:44 - 12:46`, other four were running 4 more minutes and stopped at `12:50`
   ![2020-11-18_11-39.png](Images/2020-11-18_11-39.png)
   - Using query number `3` we can see what was azure function doing before it stopped
   - #### Example for Id 8 and 12:
