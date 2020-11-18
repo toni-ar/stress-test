@@ -19,9 +19,9 @@
 # Example:
 Run 30 processes, start next process 2 seconds after previous.
 Each process should run for about 900 seconds (15 minutes) before it finishes.
-Process repeats this steps for 900 seconds:
+Process repeats these steps for 900 seconds:
   1) Writes 50MB file to the disk
-  2) Calculated 1.000.000th prime number
+  2) Calculates 1.000.000th prime number
   3) Deletes file on the disk
 
 Using `Service Bus Explorer` send `JSON` to `stress-test-dp-trigger`
