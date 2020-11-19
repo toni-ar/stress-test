@@ -15,6 +15,13 @@
 - Data processing is simulated by calculating Nth prime number, writing and deleting files from the disk
 - Set `AZURE_FUNCTIONS_ENVIRONMENT` to `Development` for running on local machine or `TEST` for running in Azure
 - Populate `local.settings.json` with valid strings
+- Azure services needed:
+  - `Service Bus Namespace`
+    - 2 queues: `stress-test-dp-trigger` and `tress-test-dp`
+  - `Function App`
+  - `Elastic Premium plan`
+  - `Application Insights`
+  - `Storage account`
 
 # Example:
 Run 30 processes, start next process 2 seconds after previous.
@@ -75,7 +82,7 @@ traces
 
 # Stress test results
 
-- After running 30 processes, starting next process 2 seconds after the previous, on `Premium plan`:
+- After running 30 processes, starting next process 2 seconds after the previous, on `Elastic Premium (EP1: 1) plan`:
   - 19 finished successfully, 11 crashed
 
 ```json
