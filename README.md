@@ -113,6 +113,8 @@ traces
   - `DataProcessingStressTestId == 12` stopped about 5 minutes after it started:
   ![2020-11-18_12-07.png](Images/2020-11-18_12-07.png)
   
-  
+## Screenshot from Resource health
+
+![2020-11-23_12-27.png](Images/2020-11-23_12-27.png)
   
  
